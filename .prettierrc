@@ -1,0 +1,9 @@
+{
+  "trailingComma": "es2017",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
+  "spaceBeforeFunctionParen": true
+}
