@@ -6,7 +6,7 @@ const buildFastify = require("./../app/app")
 tap.test("GET `/` route", (t) => {
   const fastify = buildFastify()
   const markup =
-    '<a href="https://github.com/vivitian930/graceful-shutdown-app">View Source on GitHub</a>'
+    '< href="https://github.com/vivitian930/graceful-shutdown-app">'
 
   t.plan(3)
   t.teardown(() => fastify.close())
