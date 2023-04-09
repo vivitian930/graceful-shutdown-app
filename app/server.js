@@ -17,7 +17,7 @@ server.listen(port, host, function (err, address) {
 
 // --- Graceful Shutdown ---
 
-async function closeGracefully(signal) {
+async function closeGracefully (signal) {
   log.warn(`Received signal to terminate: ${signal}`)
   // await server.close()
   // await db.close() if we have a db connection in this app
