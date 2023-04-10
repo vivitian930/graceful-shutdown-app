@@ -24,7 +24,8 @@
     "@fastify/view": "^7.4.0",
     "fastify": "^4.15.0",
     "handlebars": "^4.7.7",
-    "pino": "^8.11.0"
+    "pino": "^8.11.0",
+    "uglify-js": "^3.17.4"
   },
   "devDependencies": {
     "eslint": "^7.23.0",
