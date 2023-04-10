@@ -7,7 +7,7 @@ on:
       - "main"
       - "release"
 
-permissions: read-all
+permissions: write-all
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
